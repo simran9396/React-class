@@ -1,7 +1,8 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './Components/A_Header/Header';
 import { Body } from './Components/B_Body/Body';
-import { FooterMain } from './Components/C_Footer/FooterMain';
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div>
       <Header/>
       <Body/>
-      <FooterMain/>
+    
      </div>
   );
 }
