@@ -1,22 +1,19 @@
-import React, { useState } from "react";
-import { Button, Row, Col, Card, Container, Form ,Image} from "react-bootstrap";
-import { DetailsReducer } from "../../Reducer/DetailsReducer";
-import './Navtable.css'
+import React,{useState} from 'react'
+import { Button,Row,Col,Form,Image,Card } from 'react-bootstrap'
 
-export const Navigationtable = () => {
-  const { firstname, lastname, line01, line02, cityname } =
-    DetailsReducer.Data[0];
-  const [fname, setFname] = useState(firstname);
-  const [lname, setLname] = useState(lastname);
 
-  const [line1, setLine1] = useState(line01);
-  const [line2, setLine2] = useState(line02);
-  
-  const [city, setCity] = useState(cityname);
-  const [bulbstate,setBulbstate]=useState("off")
-  return (
-    <div>
-      <Row>
+export const Toggling = () => {
+    const [fname,setFname]=useState("");
+    const [lname,setLname]=useState("");
+    const [line1,setLine1]=useState("");
+    const [line2,setLine2]=useState("");
+    const [city,setCity]=useState("");
+    const [dob,setDob]=useState("");
+    const [qualification,setQualification]=useState("");
+    const [bulb,setBulb]=useState("on");
+    return (
+        <div>
+              <Row>
         <Col md={1}></Col>
         <Col md={4}>
           <Card>
@@ -33,7 +30,7 @@ export const Navigationtable = () => {
                           type="text"
                           placeholder="First Name"
                           onChange={(e) => setFname(e.target.value)}
-                          value={fname}
+                        //   value={fname}
                         ></Form.Control>
                       </Col>
                     </Row>
@@ -44,7 +41,7 @@ export const Navigationtable = () => {
                           type="text"
                           placeholder="Last Name"
                           onChange={(e) => setLname(e.target.value)}
-                          value={lname}
+                        //   value={lname}
                         ></Form.Control>
                       </Col>
                     </Row>
@@ -55,8 +52,8 @@ export const Navigationtable = () => {
                         <Form.Control
                           type="text"
                           placeholder="Qualifications"
-                          onChange={(e) => setLname(e.target.value)}
-                          value={lname}
+                          onChange={(e) => setQualification(e.target.value)}
+                        //   value={lname}
                         ></Form.Control>
                       </Col>
                     </Row>
@@ -66,8 +63,8 @@ export const Navigationtable = () => {
                         <Form.Control
                           type="date"
                           placeholder="DOB"
-                          onChange={(e) => setLname(e.target.value)}
-                          value={lname}
+                          onChange={(e) => setDob(e.target.value)}
+                        //   value={lname}
                         ></Form.Control>
                       </Col>
                     </Row>
@@ -78,8 +75,8 @@ export const Navigationtable = () => {
                         <Form.Control
                           type="text"
                           placeholder="H.no"
-                          onChange={(e) => setLname(e.target.value)}
-                          value={lname}
+                          onChange={(e) => setLine1(e.target.value)}
+                        //   value={lname}
                         ></Form.Control>
                       </Col>
                       </Col>
@@ -90,8 +87,8 @@ export const Navigationtable = () => {
                         <Form.Control
                           type="text"
                           placeholder="city"
-                          onChange={(e) => setLine1(e.target.value)}
-                          value={line1}
+                          onChange={(e) => setCity(e.target.value)}
+                        //   value={line1}
                         ></Form.Control>
                       </Col>
                     </Row>
@@ -102,7 +99,7 @@ export const Navigationtable = () => {
                           type="text"
                           placeholder="State"
                           onChange={(e) => setLine2(e.target.value)}
-                          value={line2}
+                        //   value={line2}
                         ></Form.Control>
                       </Col>
                     </Row>
@@ -116,18 +113,32 @@ export const Navigationtable = () => {
         {/* -----------------------------------Card------------ */}
         
         <Col md={4} >
-        <div className="card">
-        <Image src="Images/card.png" rounded width="100px" />
+       
+
+        
           <Row>
-            <Col>
-              <Card>
+           
+              <Card
+              id={bulb=="on" ? "info" :"dark1"}>
+                <Card.Body>
                 <Row>
-                  <Col>
+                  <Col md={6}>
+                  <Image src="holder.js/171x180" rounded />
+                  </Col>
+                  <Col md={6}>
+                    <Row>
+                      <Col>
+                      <b>Full Name</b>
                     <h3>{`${fname} ${lname},`}</h3>
                   </Col>
+                  <Col>{`${dob},`}</Col>
+
                 </Row>
                 <Row>
-                  <Col>{`${line1},`}</Col>
+                  <Col>{`${qualification},`}</Col>
+                </Row>
+                <Row>
+                <Col>{`${line1},`}</Col>
                 </Row>
                 <Row>
                   <Col>{`${line2},`}</Col>
@@ -137,16 +148,21 @@ export const Navigationtable = () => {
                 </Row>
                 <Button variant="primary">Go Somewhere</Button>
               </Card>
-            </Col>
+           
           </Row>
-          </div>
+        
         </Col>
         
         <Col md={3}>
-        <Image src={`Images/bulb${bulbstate }.png`} width="250px"
-         onclick={()=> bulbstate==="off"? setBulbstate("on"):setBulbstate("off") }/>
+        <Image src={`Images/bulb${bulb }.png`} width="250px"
+         onclick={()=> bulb==="off"? setBulb("on"):setBulb("off") }/>
         </Col>
       </Row>
     </div>
   );
 };
+
+       
+            
+
+

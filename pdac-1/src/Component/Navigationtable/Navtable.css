@@ -1,0 +1,10 @@
+.form{
+    background: linear-gradient(60deg,pink,skyblue,yellow);
+    padding: 20px;
+    margin-top: 30px;
+}
+div.card{
+    margin-top: 30px;
+    padding: 20px;
+    /* background-color: antiquewhite; */
+}
