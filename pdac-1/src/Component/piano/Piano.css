@@ -1,0 +1,13 @@
+Button{
+    
+    height: 600px;
+    width: 30px;
+    margin: 20px !important;
+    padding: 30px !important;
+    text-align: center !important;
+    /* align-items: center !important; */
+    font-size: 25px !important;
+}
+Button:hover{
+    background-color: black !important;
+}

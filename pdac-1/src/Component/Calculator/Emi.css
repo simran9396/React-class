@@ -1,0 +1,16 @@
+div.Calc.card{
+    background-color: rgb(135, 190, 222) !important;
+    padding-top: 10px !important;
+    margin: 150px auto;
+    margin: 50px;
+    display: block;
+   
+}
+.form-control{
+    color: chocolate !important;
+    font-size: 40px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}

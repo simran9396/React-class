@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.info{
+    background-color: navy;
+    color: orange;
+}
+.infoAcc{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#first{
+    background-color: peru;
+}
+#info{
+    padding: 0px;
+    background-color: aqua;
+}
+#dark1{
+    background-color: black;
+    color: blanchedalmond;
+}
