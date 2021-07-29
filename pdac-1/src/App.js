@@ -6,7 +6,9 @@ import { CardParent } from './Component/cards/CardParent';
 import { Carousalparent } from './Component/Carousel/Carousalparent';
 import { GridLayout } from './Component/Grid/GridLayout';
 import { Navigationtable } from './Component/Navigationtable/Navigationtable';
+import { Audioplayer } from './Component/piano/Audioplayer';
 import { Piano } from './Component/piano/Piano';
+import { Pianomain } from './Component/piano/Pianomain';
 import { Toggling } from './Component/toggle/Toggling';
 import { Counter } from './Component/Usestate/Counter';
 import { Courses } from './Course/Courses';
@@ -17,7 +19,7 @@ import { Courses } from './Course/Courses';
 function App() {
   return (
     <div className="App">
-    {/* <Courses/> */}
+    <Courses/>
     {/* <CardParent/> */}
     {/* <Carousalparent/> */}
     {/* <Counter/> */}
@@ -26,7 +28,9 @@ function App() {
     {/* <Toggling/> */}
     {/* <ToggleComps/> */}
     {/* <EMICalculator/> */}
-    <Piano/>
+    {/* <Piano/> */}
+    {/* <Pianomain/> */}
+    {/* <Audioplayer/> */}
     </div>
   );
 }

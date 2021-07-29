@@ -1,13 +1,16 @@
 Button{
     
-    height: 600px;
-    width: 30px;
-    margin: 20px !important;
-    padding: 30px !important;
-    text-align: center !important;
-    /* align-items: center !important; */
-    font-size: 25px !important;
+    height: 500px;
+    width: 50px;
+    margin: 5px !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+    margin-top: 50px !important;
 }
 Button:hover{
     background-color: black !important;
+    transform: scale(1.1);
+}
+h2{
+    text-align: center !important;
 }
