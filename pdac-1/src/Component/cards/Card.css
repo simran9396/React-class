@@ -1,0 +1,17 @@
+.But{
+    width: 180px;
+    height: 50px;
+}
+div{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.card{
+    background-color: rgb(143, 240, 240) !important;
+    
+}
+.cardbody{
+    background-color: pink;
+}

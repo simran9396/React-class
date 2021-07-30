@@ -9,6 +9,7 @@ import { Navigationtable } from './Component/Navigationtable/Navigationtable';
 import { Audioplayer } from './Component/piano/Audioplayer';
 import { Piano } from './Component/piano/Piano';
 import { Pianomain } from './Component/piano/Pianomain';
+import { Parentcard } from './Component/Practicecard/Parentcard';
 import { Toggling } from './Component/toggle/Toggling';
 import { Counter } from './Component/Usestate/Counter';
 import { Courses } from './Course/Courses';
@@ -19,8 +20,8 @@ import { Courses } from './Course/Courses';
 function App() {
   return (
     <div className="App">
-    <Courses/>
-    {/* <CardParent/> */}
+    {/* <Courses/> */}
+    <CardParent/>
     {/* <Carousalparent/> */}
     {/* <Counter/> */}
     {/* <Navigationtable/> */}
@@ -31,6 +32,7 @@ function App() {
     {/* <Piano/> */}
     {/* <Pianomain/> */}
     {/* <Audioplayer/> */}
+    {/* <Parentcard/> */}
     </div>
   );
 }

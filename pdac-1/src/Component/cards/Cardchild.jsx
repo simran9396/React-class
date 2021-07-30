@@ -1,21 +1,25 @@
-import React from 'react'
-import{Card,Button} from 'react-bootstrap'
+import React from "react";
+import { Card, Button,FormControl } from "react-bootstrap";
+import "./Card.css";
 
-export const Cardchild = ({itemCurrent}) => {
-
-    return (
-          <div>
-            <Card style={{ width: '18rem' }}>
-             <Card.Img variant="top" src={itemCurrent.cardImg} />
-              <Card.Body>
-              <Card.Title>{itemCurrent.cardTitle}</Card.Title>
-             <Card.Text>
-      {itemCurrent.cardDesc}
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-            
-        </div>
-    )
-}
+export const Cardchild = ({ itemCurrent }) => {
+  return (
+    <div>
+       
+      <Card style={{ width: "20rem" }} className="card
+      ">
+       
+        <Card.Img variant="top" src={itemCurrent.cardImg} />
+        <Card.Body className="cardbody">
+          <Card.Title>{itemCurrent.cardName}</Card.Title>
+          <Card.Text>{itemCurrent.cardDetails}</Card.Text>
+          <Card.Text>{itemCurrent.cardAdress}</Card.Text>
+          <Card.Text>{itemCurrent.cardContact}</Card.Text>
+          <Button variant="primary" className="But">
+            Go somewhere
+          </Button>
+        </Card.Body>
+      </Card>
+    </div>
+  );
+};
