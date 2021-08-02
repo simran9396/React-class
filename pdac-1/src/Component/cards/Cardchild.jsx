@@ -6,12 +6,13 @@ export const Cardchild = ({ itemCurrent }) => {
   return (
     <div>
        
+        
       <Card style={{ width: "20rem" }} className="card
       ">
-       
+          
         <Card.Img variant="top" src={itemCurrent.cardImg} />
         <Card.Body className="cardbody">
-          <Card.Title>{itemCurrent.cardName}</Card.Title>
+          <Card.Title>{`${itemCurrent.cardName} ${itemCurrent.cardLname}`}</Card.Title>
           <Card.Text>{itemCurrent.cardDetails}</Card.Text>
           <Card.Text>{itemCurrent.cardAdress}</Card.Text>
           <Card.Text>{itemCurrent.cardContact}</Card.Text>

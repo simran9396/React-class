@@ -1,0 +1,12 @@
+.nav-item{
+ background-color: rgb(13, 141, 141) !important;
+ color: white !important;
+ 
+}
+.active{
+    background-color:rgb(212, 29, 29);
+    color: white;
+}
+.nav-link{
+    color: white !important;
+}

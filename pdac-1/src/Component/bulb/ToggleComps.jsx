@@ -17,7 +17,7 @@ export const ToggleComps = () => {
                <h1> <span style={{color:color}}>pdac course</span></h1>
             <Button onClick={()=>setColor("red")}>Change Me</Button>
             <Button onClick={()=>setColor("pink")}>Change Me</Button>
-            <Button onClick={()=>setColor("orange")}>Change Me</Button>
+            <Button onClick={()=>setColor("orange")}>Change Me</Button> 
             <Button onClick={()=>setColor("purple")}>Change Me</Button>
             <Button onClick={()=>setColor("yellow")}>Change Me</Button>
             <Button onClick={()=>setColor("teal")}>Change Me</Button>

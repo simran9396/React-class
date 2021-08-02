@@ -21,14 +21,14 @@ function App() {
   return (
     <div className="App">
     {/* <Courses/> */}
-    <CardParent/>
+    {/* <CardParent/> */}
     {/* <Carousalparent/> */}
     {/* <Counter/> */}
     {/* <Navigationtable/> */}
     {/* <GridLayout/> */}
     {/* <Toggling/> */}
     {/* <ToggleComps/> */}
-    {/* <EMICalculator/> */}
+    <EMICalculator/>
     {/* <Piano/> */}
     {/* <Pianomain/> */}
     {/* <Audioplayer/> */}
