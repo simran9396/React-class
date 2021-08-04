@@ -1,0 +1,21 @@
+.login{
+    padding: 20px;
+    margin-top: 50px !important;
+    background-color:rgb(148, 195, 223);
+    width: 600px;
+    margin: auto;
+    align-items: center;
+}
+.login input{
+    /* margin: auto; */
+    text-align: center;
+    background-color: rgb(202, 216, 235);
+    margin: 10px;
+    color: white;
+}
+.login button{
+    margin-top: 20px;
+ 
+   
+    
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Tab,Tabs} from 'react-bootstrap'
-import { Sample } from './Section1/Sample'
+import { Sample } from './Sample'
 
 import './Tab.css'
 export const Tabmanager = () => {

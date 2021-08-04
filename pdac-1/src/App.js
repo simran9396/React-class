@@ -5,6 +5,7 @@ import { EMICalculator } from './Component/Calculator/EMICalculator';
 import { CardParent } from './Component/cards/CardParent';
 import { Carousalparent } from './Component/Carousel/Carousalparent';
 import { GridLayout } from './Component/Grid/GridLayout';
+import { Login } from './Component/Login/Login';
 import { Navigationtable } from './Component/Navigationtable/Navigationtable';
 import { Audioplayer } from './Component/piano/Audioplayer';
 import { Piano } from './Component/piano/Piano';
@@ -25,14 +26,15 @@ function App() {
     {/* <Carousalparent/> */}
     {/* <Counter/> */}
     {/* <Navigationtable/> */}
-    {/* <GridLayout/> */}
+    <GridLayout/>
     {/* <Toggling/> */}
     {/* <ToggleComps/> */}
-    <EMICalculator/>
+    {/* <EMICalculator/> */}
     {/* <Piano/> */}
     {/* <Pianomain/> */}
     {/* <Audioplayer/> */}
     {/* <Parentcard/> */}
+    {/* <Login/> */}
     </div>
   );
 }

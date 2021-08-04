@@ -1,0 +1,25 @@
+export const Coursereducer={
+    Data:[
+        {
+            cardname:"simran",
+            cardlname:"pathan",
+            cardcity:"pune",
+            carddsignation:"CA",
+            cardimg:"light.jpg"
+        },
+        {
+            cardname:"simran",
+            cardlname:"pathan",
+            cardcity:"pune",
+            carddsignation:"CA",
+            cardimg:"light.jpg"
+        },
+        {
+            cardname:"simran",
+            cardlname:"pathan",
+            cardcity:"pune",
+            carddsignation:"CA",
+            cardimg:"light.jpg"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+.title{
+    color: white !important;
+   
+    margin: 15px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.title:hover{
+    background-color: white;
+    color: black !important;
+    border-radius: 10px;
+}
+.nav{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px aqua
+            0 0 5px aqua;
+}
+.brand{
+    color: whitesmoke !important;
+}

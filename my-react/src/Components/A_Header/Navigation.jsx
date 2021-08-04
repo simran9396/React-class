@@ -49,8 +49,8 @@ export const Navigation = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-5        0 h-50"
-      src="da5        web_istock.jpg"
+      className="d-block w-50 h-50"
+      src="darkweb_istock.jpg"
       alt="Third slide"
       // interval="2000"
     />
