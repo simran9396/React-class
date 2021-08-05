@@ -12,7 +12,7 @@ app.get("/dept",(req,res)=>{
     res.send("i am from hr")
 })
 
-if(app.listen(4000)){
+if(app.listen(4000)){  
     console.log("connected to localhost : 4000")
 }
 

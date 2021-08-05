@@ -22,11 +22,11 @@ function App() {
   return (
     <div className="App">
     {/* <Courses/> */}
-    {/* <CardParent/> */}
+    <CardParent/>
     {/* <Carousalparent/> */}
     {/* <Counter/> */}
     {/* <Navigationtable/> */}
-    <GridLayout/>
+    {/* <GridLayout/> */}
     {/* <Toggling/> */}
     {/* <ToggleComps/> */}
     {/* <EMICalculator/> */}
