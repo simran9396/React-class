@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
-import "./Piano.css";
+// import "./Piano.css";
 
 export const Piano = () => {
   const handleplay = (bit) => {

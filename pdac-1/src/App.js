@@ -1,9 +1,10 @@
 
-import './App.css';
+// import './App.css';
 import { ToggleComps } from './Component/bulb/ToggleComps';
 import { EMICalculator } from './Component/Calculator/EMICalculator';
 import { CardParent } from './Component/cards/CardParent';
 import { Carousalparent } from './Component/Carousel/Carousalparent';
+import { Dictionarymain } from './Component/Dictionary/Dictionarymain';
 import { GridLayout } from './Component/Grid/GridLayout';
 import { Login } from './Component/Login/Login';
 import { Navigationtable } from './Component/Navigationtable/Navigationtable';
@@ -14,6 +15,7 @@ import { Parentcard } from './Component/Practicecard/Parentcard';
 import { Toggling } from './Component/toggle/Toggling';
 import { Counter } from './Component/Usestate/Counter';
 import { Courses } from './Course/Courses';
+import { Clock } from './Nodejs/Clock';
 
 
 
@@ -22,7 +24,7 @@ function App() {
   return (
     <div className="App">
     {/* <Courses/> */}
-    <CardParent/>
+    {/* <CardParent/> */}
     {/* <Carousalparent/> */}
     {/* <Counter/> */}
     {/* <Navigationtable/> */}
@@ -35,6 +37,8 @@ function App() {
     {/* <Audioplayer/> */}
     {/* <Parentcard/> */}
     {/* <Login/> */}
+    {/* <Clock/> */}
+    <Dictionarymain/>
     </div>
   );
 }

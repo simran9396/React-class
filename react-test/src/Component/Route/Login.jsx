@@ -26,7 +26,7 @@ export const Login =()=>{
             <div> 
                 <Card className="login">  
                   <Row>
-                    <Col md={10}>
+                    <Col md={10}>   
                     <Form.Control type='text' placeholder='User Name' onChange={(e)=>setUsername(e.target.value)} ></Form.Control>
                     </Col>
                     <Col md={10}>
