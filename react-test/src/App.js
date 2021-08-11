@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       {/* <Counter/> */}
       {/* <Parentcourse/> */}
-      <Router>
+      {/* <Router>
 
         
              <Navigationbar/>
@@ -44,7 +44,8 @@ function App() {
              <Aboutus/>
              </Route>
              </div>
-      </Router>
+      </Router> */}
+      <Login/>
     </div>
   );
 }

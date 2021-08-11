@@ -31,14 +31,14 @@ function App() {
     {/* <GridLayout/> */}
     {/* <Toggling/> */}
     {/* <ToggleComps/> */}
-    {/* <EMICalculator/> */}
+    <EMICalculator/>
     {/* <Piano/> */}
     {/* <Pianomain/> */}
     {/* <Audioplayer/> */}
     {/* <Parentcard/> */}
     {/* <Login/> */}
     {/* <Clock/> */}
-    <Dictionarymain/>
+    {/* <Dictionarymain/> */}
     </div>
   );
 }
