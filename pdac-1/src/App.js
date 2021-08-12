@@ -1,7 +1,9 @@
+import React from 'react';
 
 // import './App.css';
 import { ToggleComps } from './Component/bulb/ToggleComps';
 import { EMICalculator } from './Component/Calculator/EMICalculator';
+import { Memoemi } from './Component/Calculator/Memoemi';
 import { CardParent } from './Component/cards/CardParent';
 import { Carousalparent } from './Component/Carousel/Carousalparent';
 import { Dictionarymain } from './Component/Dictionary/Dictionarymain';
@@ -11,11 +13,15 @@ import { Navigationtable } from './Component/Navigationtable/Navigationtable';
 import { Audioplayer } from './Component/piano/Audioplayer';
 import { Piano } from './Component/piano/Piano';
 import { Pianomain } from './Component/piano/Pianomain';
+
 import { Parentcard } from './Component/Practicecard/Parentcard';
+import Testing from './Component/Testing';
 import { Toggling } from './Component/toggle/Toggling';
 import { Counter } from './Component/Usestate/Counter';
 import { Courses } from './Course/Courses';
 import { Clock } from './Nodejs/Clock';
+
+import  FetchingDataFromRedux  from './REdux/FetchingDataFromRedux';
 
 
 
@@ -23,6 +29,7 @@ import { Clock } from './Nodejs/Clock';
 function App() {
   return (
     <div className="App">
+     
     {/* <Courses/> */}
     {/* <CardParent/> */}
     {/* <Carousalparent/> */}
@@ -31,7 +38,7 @@ function App() {
     {/* <GridLayout/> */}
     {/* <Toggling/> */}
     {/* <ToggleComps/> */}
-    <EMICalculator/>
+    {/* <EMICalculator/> */}
     {/* <Piano/> */}
     {/* <Pianomain/> */}
     {/* <Audioplayer/> */}
@@ -39,6 +46,9 @@ function App() {
     {/* <Login/> */}
     {/* <Clock/> */}
     {/* <Dictionarymain/> */}
+    {/* <Memoemi/> */}
+    <FetchingDataFromRedux/>
+    {/* <Testing/> */}
     </div>
   );
 }

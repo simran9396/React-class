@@ -2,25 +2,22 @@ import { Button, Form, COl, Row, Card, Col } from "react-bootstrap";
 import React, { useState,useMemo,useEffect } from "react";
 import "./Emi.css";
 
-export const EMICalculator = () => {
+export const Memoemi = ({discount}) => {
   const [p, setP] = useState(0);
   const [n, setN] = useState(0);
   const [r, setR] = useState(0);
-  const [emi,setEmi]=useState(0);
   
   const handleCalEMI=()=>{
-  const si=((p*n*r)/100);
-  // const ci=(p*(1+(r/100)**n))
-  const repayAmount= Number(p)+Number(si);
-  const emiLocal=repayAmount/(n*12);
-  setEmi(emiLocal)
-  }
-  // component did update
-  useEffect(()=>{
-    handleCalEMI()
+      const si=((p*n*r)/100);
+      // const ci=(p*(1+(r/100)**n))
+      const repayAmount= Number(p)+Number(si);
+      const emiLocal=repayAmount/(n*12);
+      return emiLocal-emiLocal* (discount/100)
+    }
+   
+    const emi=useMemo(()=>handleCalEMI(),[p,n,r,discount])
 
-  },[p,n,r])
-
+    // we cn reduce unnesserary rerendering using memo
   return (
     <React.Fragment>
       <h1>EMI Calculator</h1>

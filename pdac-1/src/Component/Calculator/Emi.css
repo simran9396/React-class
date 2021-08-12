@@ -1,8 +1,8 @@
-div.Calc.card{
+.Calc.card{
     background-color: rgb(135, 190, 222) !important;
-    padding-top: 10px !important;
-    margin: 150px auto;
-    margin: 50px;
+    /* padding-top: 10px !important; */
+    margin: auto;
+    margin: 150px;
     display: block;
    
 }
@@ -13,4 +13,10 @@ div.Calc.card{
 }
 h1{
     text-align: center;
+    background-color:blueviolet ;
+    /* margin: auto !important; */
+
+}
+fragment{
+    background-color: burlywood;
 }
