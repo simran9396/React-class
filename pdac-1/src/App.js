@@ -20,6 +20,7 @@ import { Toggling } from './Component/toggle/Toggling';
 import { Counter } from './Component/Usestate/Counter';
 import { Courses } from './Course/Courses';
 import { Clock } from './Nodejs/Clock';
+import { Empdetails } from './reactRedux/Empdetails';
 
 import  FetchingDataFromRedux  from './REdux/FetchingDataFromRedux';
 
@@ -47,8 +48,9 @@ function App() {
     {/* <Clock/> */}
     {/* <Dictionarymain/> */}
     {/* <Memoemi/> */}
-    <FetchingDataFromRedux/>
+    {/* <FetchingDataFromRedux/> */}
     {/* <Testing/> */}
+    <Empdetails/>
     </div>
   );
 }

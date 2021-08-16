@@ -1,10 +1,11 @@
 const initialState = {
     data: [{
+        imgs:"Images/1.png",
         name: "simran",
         sname: "pathan",
         desc: "create Reducers"
     },
-    {
+    {     imgs:"Images/1.png",
         name: "simran",
         sname: "pathan",
         desc: "create Reducers"

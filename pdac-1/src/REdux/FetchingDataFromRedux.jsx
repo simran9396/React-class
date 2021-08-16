@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Card } from "react-bootstrap";
+import { Card,Image } from "react-bootstrap";
 import { getAllGroup } from "../state/Selector/selector";
 import { useSelector } from "react-redux";
 
@@ -19,8 +19,9 @@ const FetchingDataFromRedux = () => {
           display: "flex",
         }}
       >
-        <Card.Title>Hello=={item.name} surname= {item.sname}</Card.Title>
-        <Card.Body>redux practice reducer</Card.Body>
+        <img src={item.imgs} alt="" />
+        <Card.Title>Hello {item.name}  {item.sname}</Card.Title>
+        <Card.Body>{item.desc}</Card.Body>
       </Card>
         )
           })}

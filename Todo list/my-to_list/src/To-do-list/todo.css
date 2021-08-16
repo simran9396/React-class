@@ -1,0 +1,30 @@
+.home{
+    background: linear-gradient(160deg,rgb(234, 235, 176),rgb(168, 204, 204),rgb(245, 212, 218));
+    margin: 10px;
+    padding: 10px;
+}
+.todolist{
+    /* background: linear-gradient(70deg,rgb(190, 216, 226),grey); */
+    margin: 10px;
+    padding: 10px;
+    color: rgb(32, 16, 173);
+    font-size: larger;
+}
+.addtodo{
+    /* background: linear-gradient(70deg,rgb(248, 212, 237),rgb(192, 184, 184)); */
+    margin: 10px;
+    padding: 10px;
+    color: rgb(27, 24, 204) ;
+    font-size: larger !important;
+}
+
+.todoitem{
+    background-color: rgb(159, 195, 230) !important;
+    margin: 10px;
+    padding: 10px;
+
+}
+.BUtton{
+    margin: 20px;
+    width: 100px;
+}
