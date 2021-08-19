@@ -5,6 +5,7 @@ export const AddTodoItem = ({ handleAdd }) => {
   return (
     <Card className="addtodo">
       Add to do item
+      <Row>
       <Col>
         <Form.Control
           placeholder="add item"
@@ -22,6 +23,7 @@ export const AddTodoItem = ({ handleAdd }) => {
           Add
         </Button>
       </Col>
+      </Row>
     </Card>
   );
 };
