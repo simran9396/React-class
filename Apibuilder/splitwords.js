@@ -9,3 +9,10 @@ splitword(strdata)
 //     console.log(arrstr)
 
 // }
+
+const splitalgo=(str)=>{
+    const arrstr=str.split(" ")
+    console.log(arrstr)
+}
+const newsplit="my name is simran"
+splitalgo(newsplit)
