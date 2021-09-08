@@ -15,6 +15,7 @@ import { Piano } from './Component/piano/Piano';
 import { Pianomain } from './Component/piano/Pianomain';
 
 import { Parentcard } from './Component/Practicecard/Parentcard';
+import { Dynamiccomp } from './Component/search employee/Dynamiccomp';
 import Testing from './Component/Testing';
 import { Toggling } from './Component/toggle/Toggling';
 import { Counter } from './Component/Usestate/Counter';
@@ -50,7 +51,8 @@ function App() {
     {/* <Memoemi/> */}
     {/* <FetchingDataFromRedux/> */}
     {/* <Testing/> */}
-    <Empdetails/>
+    {/* <Empdetails/> */}
+   <Dynamiccomp/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 .home{
-    background: linear-gradient(160deg,rgb(234, 235, 176),rgb(168, 204, 204),rgb(245, 212, 218));
+    background: linear-gradient(160deg,rgb(234, 235, 176),rgb(168, 204, 204),rgb(245, 212, 218)) !important;
     margin: 10px;
     padding: 10px;
 }

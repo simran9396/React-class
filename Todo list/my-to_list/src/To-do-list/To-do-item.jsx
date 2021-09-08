@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Card,Col,Row,Form} from 'react-bootstrap'
+import {Card,Col,Row,Form,Button} from 'react-bootstrap'
 
 export const TodoItem = ({item}) => {
     const[check,setCheck]=useState(false)
@@ -13,6 +13,7 @@ export const TodoItem = ({item}) => {
                <Col md={8}>
                <Form.Label>
                    {check ?<del>{item}</del>:item}</Form.Label>
+                   <Button>delete</Button>
                </Col>
            </Row>
     </Card> 
